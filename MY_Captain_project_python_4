@@ -1,0 +1,12 @@
+import numpy as np
+n = int(input('Enter how many Array elements: '))
+
+array = [int(input()) for i in range(n)]
+
+print(array)
+
+
+print("** The Positive Numbers in this array are ***")
+for num in array:
+    if (num >= 0):
+        print(num, end = "  ")
